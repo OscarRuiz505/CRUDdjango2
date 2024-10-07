@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hola-mundo/', views.holaMundo,name="holaMundo" ),
     path('', include('productos.urls')),
+    
    
 ]
